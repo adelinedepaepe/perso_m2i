@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D27420FB-E22B-ADAE-41A3-5A9168E3AF81" containerWithKeyObject="0BB0231C-91F9-1421-AEBA-2EB87F8F3EB9" localFKIndex="AA1D8BFC-5C91-F3EF-3109-8ED8B8C5C43E" name="MAR_MODULE_FK">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>MAR_MODULE_FK</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<referredTableLongName>UNIVERSITY.MODULES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8ACFC591-0BDC-1043-BFEA-EFC20E39BC8B</referredTableID>
+<keyObject>19226F4B-2152-206C-A1F3-C30F5F5C876D</keyObject>
+<referredKeyID>19226F4B-2152-206C-A1F3-C30F5F5C876D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

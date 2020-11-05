@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MODULES" directorySegmentName="seg_0" id="8ACFC591-0BDC-1043-BFEA-EFC20E39BC8B">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:13 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<schemaObject>70537AD9-7C41-9C9E-AED3-4DD8C716FEE4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5CCF644-E902-9764-52A1-A908C639036E</segment>
+<tableSpace>9B8EAECF-96B2-1518-6EAD-69F36433DCAE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="END_DATE" id="1BBD1A2C-023B-739C-8499-C107EACCC54A">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="3A114CA5-B882-3133-FDC9-A0FABDC80D53">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="A51CE65A-8143-E325-DBB8-FA5D9E3B8194">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LABEL" id="DFA7CDDD-3DFD-6483-048F-1A5ACEE48B53">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MOD_ID_PK" id="8352DD71-B40A-9AE1-D775-7E14914992D3">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<schemaObject>70537AD9-7C41-9C9E-AED3-4DD8C716FEE4</schemaObject>
+<segment>BA1BBF63-16DD-DE2E-B857-35E82A28C7BA</segment>
+<tableSpace>9B8EAECF-96B2-1518-6EAD-69F36433DCAE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MOD_ID_PK" id="19226F4B-2152-206C-A1F3-C30F5F5C876D">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<segment>BA1BBF63-16DD-DE2E-B857-35E82A28C7BA</segment>
+<tableSpace>9B8EAECF-96B2-1518-6EAD-69F36433DCAE</tableSpace>
+<existingIndex>8352DD71-B40A-9AE1-D775-7E14914992D3</existingIndex>
+<indexSegment>BA1BBF63-16DD-DE2E-B857-35E82A28C7BA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STUDENTS" directorySegmentName="seg_0" id="A2002621-B05E-E8C6-E154-9E89890AC22A">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:13 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<schemaObject>70537AD9-7C41-9C9E-AED3-4DD8C716FEE4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>77010CA8-5CA6-38DA-1856-3B92BFE8927F</segment>
+<tableSpace>9B8EAECF-96B2-1518-6EAD-69F36433DCAE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PAYS" id="0AF448A2-9566-3064-A4B1-00DA0506A406">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="3E67BACE-3AE8-985B-D5FE-6904EFA0214F">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="4301B258-5834-0C8E-F83C-047FF431F5F2">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="57B7F365-E4C2-EE17-E585-C33FBCE1AAB7">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VILLE" id="6969418F-D9DA-ED4B-3313-10C1733D795A">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BIRTH_DATE" id="B673533F-60EF-9C40-7B65-55854061A3D2">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="D628502C-81C1-D507-E4F8-13623D324F34">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STU_ID_PK" id="B723700F-4873-AA51-C772-CF00613983F3">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<schemaObject>70537AD9-7C41-9C9E-AED3-4DD8C716FEE4</schemaObject>
+<segment>C429E43F-2152-93BB-01DB-A875BAC4120C</segment>
+<tableSpace>9B8EAECF-96B2-1518-6EAD-69F36433DCAE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STU_ID_PK" id="7F28577C-4B5A-0437-2099-7C394D74D142">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<segment>C429E43F-2152-93BB-01DB-A875BAC4120C</segment>
+<tableSpace>9B8EAECF-96B2-1518-6EAD-69F36433DCAE</tableSpace>
+<existingIndex>B723700F-4873-AA51-C772-CF00613983F3</existingIndex>
+<indexSegment>C429E43F-2152-93BB-01DB-A875BAC4120C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

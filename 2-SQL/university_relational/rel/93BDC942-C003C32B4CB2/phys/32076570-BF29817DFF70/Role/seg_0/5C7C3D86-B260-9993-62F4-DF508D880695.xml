@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="TEACHERS" directorySegmentName="seg_0" id="5C7C3D86-B260-9993-62F4-DF508D880695">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjName>TEACHERS</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="89F84C58-D3A7-5049-76A3-57957AFB6DE0">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>0BB0231C-91F9-1421-AEBA-2EB87F8F3EB9</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions4" id="FA839E88-D489-1654-F70E-64AB2C9E2C5D">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>8ACFC591-0BDC-1043-BFEA-EFC20E39BC8B</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

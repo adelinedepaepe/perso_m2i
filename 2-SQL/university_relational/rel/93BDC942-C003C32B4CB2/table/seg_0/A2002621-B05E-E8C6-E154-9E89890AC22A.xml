@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2002621-B05E-E8C6-E154-9E89890AC22A" schemaObject="70537AD9-7C41-9C9E-AED3-4DD8C716FEE4" name="STUDENTS">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>STUDENTS</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:13 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="57B7F365-E4C2-EE17-E585-C33FBCE1AAB7">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="3E67BACE-3AE8-985B-D5FE-6904EFA0214F">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="D628502C-81C1-D507-E4F8-13623D324F34">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH_DATE" id="B673533F-60EF-9C40-7B65-55854061A3D2">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>BIRTH_DATE</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="4301B258-5834-0C8E-F83C-047FF431F5F2">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VILLE" id="6969418F-D9DA-ED4B-3313-10C1733D795A">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>VILLE</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYS" id="0AF448A2-9566-3064-A4B1-00DA0506A406">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>PAYS</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F28577C-4B5A-0437-2099-7C394D74D142" name="STU_ID_PK">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>STU_ID_PK</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57B7F365-E4C2-EE17-E585-C33FBCE1AAB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B723700F-4873-AA51-C772-CF00613983F3" schemaObject="70537AD9-7C41-9C9E-AED3-4DD8C716FEE4" name="STU_ID_PK">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>STU_ID_PK</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57B7F365-E4C2-EE17-E585-C33FBCE1AAB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

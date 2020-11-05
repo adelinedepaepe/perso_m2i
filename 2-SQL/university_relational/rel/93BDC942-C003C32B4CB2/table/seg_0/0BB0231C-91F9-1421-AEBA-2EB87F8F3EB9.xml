@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BB0231C-91F9-1421-AEBA-2EB87F8F3EB9" schemaObject="70537AD9-7C41-9C9E-AED3-4DD8C716FEE4" name="MARKS">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>MARKS</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:13 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1615F370-757F-35C7-7176-F26502540889">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>MARKS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARK" id="93F32710-876F-D39E-A45B-7F5EFC037A9E">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>MARKS</sourceObjSchema>
+<sourceObjName>MARK</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<constraintName>MAR_MAR_MIN</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="mark&gt;0"/>
+<implementationDef dbType="Oracle Database 11g" definition="mark&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_ID" id="F115EE14-85D1-5BC2-95A4-60FD861D2124">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>MARKS</sourceObjSchema>
+<sourceObjName>STUDENT_ID</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7629A15-3FD7-C8F5-9B7C-37799C0BD20F" referredColumn="57B7F365-E4C2-EE17-E585-C33FBCE1AAB7"/>
+</associations>
+</Column>
+<Column name="MODULE_ID" id="2706F87F-675C-ED39-3C69-A2AA29B65FE6">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>MARKS</sourceObjSchema>
+<sourceObjName>MODULE_ID</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D27420FB-E22B-ADAE-41A3-5A9168E3AF81" referredColumn="A51CE65A-8143-E325-DBB8-FA5D9E3B8194"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="834254C1-A5AA-0126-57FC-A0D99364AE83" name="MAR_ID_PK">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>MAR_ID_PK</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1615F370-757F-35C7-7176-F26502540889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90AA7E66-87B1-21E3-95FB-E2A74CDDFCC3" schemaObject="70537AD9-7C41-9C9E-AED3-4DD8C716FEE4" name="MAR_ID_PK">
+<sourceConnName>UNIVERSITY</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>MAR_ID_PK</sourceObjName>
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1615F370-757F-35C7-7176-F26502540889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA1D8BFC-5C91-F3EF-3109-8ED8B8C5C43E" name="MAR_MODULE_FK">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2706F87F-675C-ED39-3C69-A2AA29B65FE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="881A1272-FB39-BA93-8106-6ED48180029A" name="MAR_STUDENT_FK">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:53:14 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F115EE14-85D1-5BC2-95A4-60FD861D2124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

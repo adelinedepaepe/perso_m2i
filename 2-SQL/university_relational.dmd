@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="university_relational" id="325057D0-ED09-A9D3-957A-C67094DE4CF2" version="3.5">
+<createdBy>adeli</createdBy>
+<createdTime>2020-11-04 19:52:30 UTC</createdTime>
+<ownerDesignName>university_relational</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>325057D0-ED09-A9D3-957A-C67094DE4CF2</designId>
+</OSDM_Design>
