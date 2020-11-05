@@ -1,10 +1,16 @@
-message = "\n\t\t\n    Ceci est un message avec des espaces au début et à la fin.\n\n   \t"
+mois =['Janvier','Février','Mars','Avril','Mai','Juin','Juillet']
+month =mois.copy()
 
-message = message.lstrip().rstrip()
+month.sort()
+print(month)
 
-print(message)
+print(sorted(mois))
 
-print (len(message))
+month.reverse()
+print(month)
 
-print(message.capitalize())
-print(message.count("un"))
+print(reversed(mois))
+print(list(reversed(mois)))
+
+
+
