@@ -8,3 +8,5 @@ print (len(message))
 
 print(message.capitalize())
 print(message.count("un"))
+print (message.endwith("message" 10,20))
+print (message[12:20])
