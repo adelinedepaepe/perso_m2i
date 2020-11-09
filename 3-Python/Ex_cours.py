@@ -15,3 +15,10 @@ print(list(reversed(mois))) # je ne sais pas pourquoi, mais contrairement à sor
 
 
 
+<<<<<<< HEAD
+print(message.capitalize())
+print(message.count("un"))
+print (message.endwith("message" 10,20))
+print (message[12:20])
+=======
+>>>>>>> be4ddb01c0b6a3511e40a30bb16123edef95e152
