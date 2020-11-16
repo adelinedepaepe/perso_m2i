@@ -36,24 +36,24 @@ class Employee():
     _self.lastName = lastName
     _self.hireDate = hireDate
 
+  def resign(_self):
+    print(f"L'employé {_self.lastName} {_self.firstName} portant l'id: {_self.id} a démissioné")
+
+  def fire(_self):
+      print(f"{_self.firstName} {_self.lastName} est licencié")
+      del _self.firstName
+      del _self.lastName
+      del _self.hireDate
+      del _self.id
+      print ( f"{_self.firstName} {_self.firstName} est licencié" )
+
+  def hire(_self, hireDate):
+      _self.hireDate =hireDate
+      print(f"La nouvelle date d'embauche de {_self.firstName} {_self.lastName} est le {_self.hireDate}")
 
 
-#Tempo2: On créé une méthode qui affiche id, nom, prénom lorsqu'on renseigne l'id
-  def affiche(_self):
-      """affiche id, nom, prénom lorsqu'on renseigne l'id"""
-      #for e in list:
-      #    if e.id==_self:
-      #        print(e.id +' '+ e.firstName +' '+ e.lastName)
-      print(_self.id)
 
-  def hire(_self, hireDate='01/01/2020'):
-     _self.hireDate =hireDate
-#
-# def fire(_self, id):
-#   pass
-#
-# def resign(_self):
-#   pass
+#On lit le fichier enployees, et pour chaque ligne, on crée un oblet de la classe employee
 employees_list=[]
 with open ( 'C:\\Users\\Administrateur\\PycharmProjects\\Yassine\\m2i\\data\\hr\\employees.csv' ) as f:
      for line in f:
@@ -63,35 +63,70 @@ with open ( 'C:\\Users\\Administrateur\\PycharmProjects\\Yassine\\m2i\\data\\hr\
                     line[1:-3].split ( ';' )[0],
                     line[1:-3].split ( ';' )[1],
                     line[1:-3].split ( ';' )[2],
-                    line[1:-3].split ( ';' )[7]
+                    line[1:-3].split ( ';' )[5]
                 )
             )
 
-i=0
-id='120'
-for emp in employees_list:
-    print(emp.id)
-    if int(emp.id) == int(id):
-        index= employees_list
-        print(f"nous avons trouvé l'employé {id} et son nom est {employees_list[int(id)].firstName}")
+#Comment interroger cette liste?
+# Pour avoir l'id du premier: print(employees_list[0].id)
+#Pour chercher l'employé avec l'id 120
+# for e in employees_list:
+#     if e.id == '120':
+#         print(f"L'employé avec l'id 120 s'appelle {e.firstName} {e.lastName}")
+#Pour chercher employé avec un id dynamique:
+# id='120'
+# for e in employees_list:
+#      if e.id == id:
+#          print(f"L'employé avec l'id {id} s'appelle {e.firstName} {e.lastName}")
+
+#A l'extérieur de la classe, on peut définir une fonction puis l'appeler. Cette onction a pour but d'identifier l'employé rechercher.
+#Elle peu ensuite faire appel à une fonction de la classe. (voir plus bas)
+# def affiche(id):
+#   """affiche id, nom, prénom lorsqu'on renseigne l'id"""
+#   for e in employees_list:
+#       if e.id == id:
+#           print ( f"L'employé avec l'id {id} s'appelle {e.firstName} {e.lastName}" )
+#
+# affiche('134')
+
+def read_employees(id):
+    """Lit la liste des employés"""
+    for e in employees_list:
+        if e.id == id:
+            #print ( e )
+            #print ( e.lastName)
+            print(f"Une action va être effectuée sur l'employé {e.firstName} {e.lastName} portant l'id: {e.id} et ayant été embauché le {e.hireDate}")
+            return e
 
 
-# print(employees_list)
-# print(employees_list[0].id)
 
-#Je cherche à concaténer un nom de variable et un choffre pour faire une varible qui s'incrémente
-# variable_list = 'employee'+ str(2*2)
-# print(variable_list)
-emp_test=Employee('999','Adeline','DIDIER','01/01/2020')
-variable=Employee('998','Adeline','DIDIER','01/01/2020')
-
-#Employee.affiche(120)
+# def fire_employee(id):
+#     """Identifie le salarié désigné par l'id, puis applique la méthode resign à cet employé"""
+#     for e in employees_list:
+#         if e.id == id:
+#             e.fire()
 
 
-    #emp_test.affiche(120)
+def fire_employee2(id):
+    read_employees(id).fire()
 
-    # #tempo1: on crée une boucle pour parcourir tous les salariés, et afficher id, prénom et nom si id = 120
-    #
-    # for e in employees_list:
-    #     if e.id=='120':
-    #         print(e.id +' '+ e.firstName +' '+ e.lastName)
+def resign_employee(id):
+    """Affiche les informations de l'employé nom de l'employé qui a demissionné"""
+    read_employees ( id ).resign()
+
+def hire_employee(id, hireDate):
+    """Change la hireDate"""
+    read_employees(id).hire(hireDate)
+
+
+
+fire_employee2('120')
+resign_employee('134')
+hire_employee('110','02/02/2020')
+
+
+# fire_employee2('120')
+
+
+# for e in employees_list:
+#    print ( e.id )
