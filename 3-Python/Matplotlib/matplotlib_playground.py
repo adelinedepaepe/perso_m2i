@@ -31,7 +31,8 @@ ax3 = fig.add_subplot(2,2,3)
 # 2: nombre total de tracés verticalement,
 # 2:nombre de tracés total horizontalement,
 # 1: position ciblé pour le tracé en cours
-plt.plot(np.random.randn(50).cumsum(),'k--') #random.randn(50) va créer 50 point random, cumsum() fait un cumul
+plt.plot(np.random.randn(1200).cumsum(),'k--') #random.randn(50) va créer 50 point random, cumsum() fait un cumul
+ticks = ax3.set_xticks([0, 250, 500, 750, 1000])
 plt.show()
 
 
