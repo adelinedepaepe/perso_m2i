@@ -1,0 +1,1 @@
+'created_at','tweet_id','tweet','likes','retweet_count','source','user_id','user_name','user_screen_name','user_description','user_join_date','user_followers_count','user_location','lat','long','city','country','continent','state','state_code','collected_at'
